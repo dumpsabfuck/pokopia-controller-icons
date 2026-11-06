@@ -1,0 +1,12 @@
+# Game files and anything derived from them never go in this repository.
+*.g1t
+*.fdata
+*.rdb
+*.rdx
+*.texinfo
+*.dds
+*.ips
+*.zip
+
+__pycache__/
+.venv/
