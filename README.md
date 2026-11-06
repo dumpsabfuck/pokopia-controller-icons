@@ -25,6 +25,7 @@ It swaps 27 Switch icons in the menus and prompts, drawn in the game's own style
 <img src="icons/keyboard/a.png" width="48" alt="C">
 <img src="icons/keyboard/y.png" width="48" alt="Z">
 <img src="icons/keyboard/x.png" width="48" alt="V">
+<img src="icons/keyboard-mouse/rs.png" width="48" alt="Mouse">
 
 </div>
 <br>
