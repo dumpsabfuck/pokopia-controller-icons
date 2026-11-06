@@ -2,12 +2,12 @@
 
 # Pokopia Controller Icons <br>
 
-[![license](https://img.shields.io/badge/license-MIT-blue)](LICENSE)
-![pokopia](https://img.shields.io/badge/Pokopia-2.0.1a-292929)
-![zip](https://img.shields.io/badge/ZIP-menos%20de%201%20MB-blue) <br>
-![documentation](https://img.shields.io/badge/Documentation-gray)
-[![english](https://img.shields.io/badge/-English-blue)](README.md)
-[![português](https://img.shields.io/badge/-Português%20Brasileiro-blue)](README.br.md)
+[![license](https://img.shields.io/badge/license-MIT-EE1515?labelColor=222224)](LICENSE)
+![pokopia](https://img.shields.io/badge/Pokopia-2.0.1a-EE1515?labelColor=222224)
+![zip](https://img.shields.io/badge/ZIP-menos%20de%201%20MB-EE1515?labelColor=222224) <br>
+![documentation](https://img.shields.io/badge/Documentation-222224)
+[![english](https://img.shields.io/badge/-English-F0F0F0)](README.md)
+[![português](https://img.shields.io/badge/-Português%20Brasileiro-F0F0F0)](README.br.md)
 
 Troque os ícones do Switch pelos de PlayStation, Xbox, Steam Deck ou teclado no Pokémon Pokopia! <br>
 O mod modifica apenas a textura necessária, sem recomprimir e mantendo a qualidade original <br>

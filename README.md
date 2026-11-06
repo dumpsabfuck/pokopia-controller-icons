@@ -2,12 +2,12 @@
 
 # Pokopia Controller Icons <br>
 
-[![license](https://img.shields.io/badge/license-MIT-blue)](LICENSE)
-![pokopia](https://img.shields.io/badge/Pokopia-2.0.1a-292929)
-![zip](https://img.shields.io/badge/ZIP-under%201%20MB-blue) <br>
-![documentation](https://img.shields.io/badge/Documentation-gray)
-[![english](https://img.shields.io/badge/-English-blue)](README.md)
-[![português](https://img.shields.io/badge/-Português%20Brasileiro-blue)](README.br.md)
+[![license](https://img.shields.io/badge/license-MIT-EE1515?labelColor=222224)](LICENSE)
+![pokopia](https://img.shields.io/badge/Pokopia-2.0.1a-EE1515?labelColor=222224)
+![zip](https://img.shields.io/badge/ZIP-under%201%20MB-EE1515?labelColor=222224) <br>
+![documentation](https://img.shields.io/badge/Documentation-222224)
+[![english](https://img.shields.io/badge/-English-F0F0F0)](README.md)
+[![português](https://img.shields.io/badge/-Português%20Brasileiro-F0F0F0)](README.br.md)
 
 PlayStation, Xbox, Steam Deck and keyboard icons for Pokémon Pokopia! <br>
 The mod only changes the texture it needs, doesn't recompress it and keeps the original quality <br>
