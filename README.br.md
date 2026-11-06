@@ -41,6 +41,7 @@ São 27 ícones nos menus e avisos, desenhados no estilo do próprio jogo :)
    | Xbox, ROG Ally e outros com o A embaixo | [Xbox](https://github.com/dumpsabfuck/pokopia-controller-icons/releases/latest/download/pokopia-xbox-icons.zip) |
    | Steam Deck | [Steam Deck](https://github.com/dumpsabfuck/pokopia-controller-icons/releases/latest/download/pokopia-steam-deck-icons.zip) |
    | Teclado | [Teclado](https://github.com/dumpsabfuck/pokopia-controller-icons/releases/latest/download/pokopia-keyboard-icons.zip) |
+   | Teclado e mouse | [Teclado e mouse](https://github.com/dumpsabfuck/pokopia-controller-icons/releases/latest/download/pokopia-keyboard-mouse-icons.zip) |
 
 2. No emulador, clique com o botão direito no jogo e depois em `Configure Game`
 3. Na aba `Add-Ons`, clique em `Import Mod from ZIP`, escolha o arquivo e dê `OK` no nome que aparecer
@@ -67,7 +68,7 @@ Na página inicial do emulador, onde tem os jogos, clique com o botão direito n
 3. Feche o jogo
 4. Ache a pasta `KIDS_PLATFORM_OUNCE` do update 2.0.1a (onde ficam o `root.rdb` e o `0x00011c54.fdata`)
 5. Na pasta onde está o `apply.py`, clique na barra de endereço, digite `cmd` e aperte Enter
-6. Rode o `apply.py` com o seu layout (`playstation`, `xbox`, `steam-deck` ou `keyboard`):
+6. Rode o `apply.py` com o seu layout (`playstation`, `xbox`, `steam-deck`, `keyboard` ou `keyboard-mouse`):
 
    ```bash
    python apply.py playstation "{GAME_FOLDER_PATH}\updates\655360\romfs\motor_asset_re\KIDS_PLATFORM_OUNCE" "{MODS_FOLDER_PATH}\Controller Icons"
@@ -176,6 +177,15 @@ Clique com o botão direito no jogo, depois em `Open Mod Data Location`, e apagu
 | Home | <img src="icons/keyboard/home.png" width="48" alt="Casa"> | Sem tecla padrão |
 | Direcional | <img src="icons/keyboard/dpad.png" width="48" alt="Setas"> <img src="icons/keyboard/dpad_up.png" width="48" alt="Cima"> <img src="icons/keyboard/dpad_right.png" width="48" alt="Direita"> <img src="icons/keyboard/dpad_down.png" width="48" alt="Baixo"> <img src="icons/keyboard/dpad_left.png" width="48" alt="Esquerda"> <img src="icons/keyboard/dpad_h.png" width="48" alt="Esquerda e direita"> <img src="icons/keyboard/dpad_v.png" width="48" alt="Cima e baixo"> | Setas do teclado |
 | Setas | <img src="icons/keyboard/up.png" width="48" alt="Seta para cima"> <img src="icons/keyboard/right.png" width="48" alt="Seta para a direita"> <img src="icons/keyboard/down.png" width="48" alt="Seta para baixo"> <img src="icons/keyboard/left.png" width="48" alt="Seta para a esquerda"> | Setas do teclado |
+
+</details>
+
+<details>
+    <summary>
+        <strong>Ver os ícones de teclado e mouse</strong>
+    </summary>
+
+São os mesmos do teclado, mas o analógico direito vira o mouse: <img src="icons/keyboard-mouse/rs.png" width="48" alt="Mouse">
 
 </details>
 

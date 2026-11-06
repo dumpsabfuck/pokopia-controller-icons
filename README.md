@@ -41,6 +41,7 @@ It swaps 27 Switch icons in the menus and prompts, drawn in the game's own style
    | Xbox, ROG Ally and others with A at the bottom | [Xbox](https://github.com/dumpsabfuck/pokopia-controller-icons/releases/latest/download/pokopia-xbox-icons.zip) |
    | Steam Deck | [Steam Deck](https://github.com/dumpsabfuck/pokopia-controller-icons/releases/latest/download/pokopia-steam-deck-icons.zip) |
    | Keyboard | [Keyboard](https://github.com/dumpsabfuck/pokopia-controller-icons/releases/latest/download/pokopia-keyboard-icons.zip) |
+   | Keyboard and mouse | [Keyboard and mouse](https://github.com/dumpsabfuck/pokopia-controller-icons/releases/latest/download/pokopia-keyboard-mouse-icons.zip) |
 
 2. In the emulator, right-click the game and click `Configure Game`
 3. In the `Add-Ons` tab, click `Import Mod from ZIP`, pick the file and click `OK` on the name it suggests
@@ -67,7 +68,7 @@ On the emulator's main page, where your games are, right-click the game, click `
 3. Close the game
 4. Find the `KIDS_PLATFORM_OUNCE` folder from update 2.0.1a (the one with `root.rdb` and `0x00011c54.fdata`)
 5. In the folder with `apply.py`, click the address bar, type `cmd` and press Enter
-6. Run `apply.py` with your layout (`playstation`, `xbox`, `steam-deck` or `keyboard`):
+6. Run `apply.py` with your layout (`playstation`, `xbox`, `steam-deck`, `keyboard` or `keyboard-mouse`):
 
    ```bash
    python apply.py playstation "{GAME_FOLDER_PATH}\updates\655360\romfs\motor_asset_re\KIDS_PLATFORM_OUNCE" "{MODS_FOLDER_PATH}\Controller Icons"
@@ -176,6 +177,15 @@ Right-click the game, click `Open Mod Data Location` and delete the `Controller 
 | Home | <img src="icons/keyboard/home.png" width="48" alt="House"> | No default key |
 | D-pad | <img src="icons/keyboard/dpad.png" width="48" alt="Arrow keys"> <img src="icons/keyboard/dpad_up.png" width="48" alt="Up"> <img src="icons/keyboard/dpad_right.png" width="48" alt="Right"> <img src="icons/keyboard/dpad_down.png" width="48" alt="Down"> <img src="icons/keyboard/dpad_left.png" width="48" alt="Left"> <img src="icons/keyboard/dpad_h.png" width="48" alt="Left and right"> <img src="icons/keyboard/dpad_v.png" width="48" alt="Up and down"> | Arrow keys |
 | Arrows | <img src="icons/keyboard/up.png" width="48" alt="Up arrow"> <img src="icons/keyboard/right.png" width="48" alt="Right arrow"> <img src="icons/keyboard/down.png" width="48" alt="Down arrow"> <img src="icons/keyboard/left.png" width="48" alt="Left arrow"> | Arrow keys |
+
+</details>
+
+<details>
+    <summary>
+        <strong>See the keyboard and mouse icons</strong>
+    </summary>
+
+Same as the keyboard, but the right stick becomes the mouse: <img src="icons/keyboard-mouse/rs.png" width="48" alt="Mouse">
 
 </details>
 
