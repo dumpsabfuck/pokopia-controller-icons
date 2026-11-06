@@ -106,8 +106,7 @@ def apply_patch(g1t: bytearray, layout: str) -> None:
 
 
 def build_record(header_and_params: bytes, g1t: bytearray) -> bytearray:
-    # Stored uncompressed: type 4 can't be written back, because the other 8 bytes of each chunk prefix are unknown.
-    # The game accepts type 0 for this record.
+    # Stored uncompressed, which the game accepts for this record.
     record = bytearray(header_and_params) + g1t
     struct.pack_into("<qqq", record, RECORD_SIZES_OFFSET, len(record), len(g1t), len(g1t))
     flags = struct.unpack_from("<I", record, RECORD_FLAGS_OFFSET)[0]
