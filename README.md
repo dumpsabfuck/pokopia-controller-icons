@@ -10,7 +10,7 @@
 [![português](https://img.shields.io/badge/-Português%20Brasileiro-blue)](README.br.md)
 
 PlayStation, Xbox, Steam Deck and keyboard icons for Pokémon Pokopia! <br>
-The mod only changes the texture it needs, without recompressing it and keeping the original quality <br>
+The mod only changes the texture it needs, doesn't recompress it and keeps the original quality <br>
 It swaps 27 Switch icons in the menus and prompts, drawn in the game's own style :)
 
 <img src="icons/playstation/b.png" width="48" alt="Cross">
@@ -66,14 +66,14 @@ On the emulator's main page, where your games are, right-click the game, click `
 2. Download [this repo as a ZIP](https://github.com/dumpsabfuck/pokopia-controller-icons/archive/refs/heads/main.zip) and extract it
 3. Close the game
 4. Find the `KIDS_PLATFORM_OUNCE` folder from update 2.0.1a (the one with `root.rdb` and `0x00011c54.fdata`)
-5. In the folder you extracted, click the address bar, type `cmd` and press Enter
+5. In the folder with `apply.py`, click the address bar, type `cmd` and press Enter
 6. Run `apply.py` with your layout (`playstation`, `xbox`, `steam-deck` or `keyboard`):
 
    ```bash
    python apply.py playstation "{GAME_FOLDER_PATH}\updates\655360\romfs\motor_asset_re\KIDS_PLATFORM_OUNCE" "{MODS_FOLDER_PATH}\Controller Icons"
    ```
 
-   `{MODS_FOLDER_PATH}` is the folder that opens with `Open Mod Data Location`.
+   `{GAME_FOLDER_PATH}` is the game's folder, and `{MODS_FOLDER_PATH}` is the folder that opens with `Open Mod Data Location`.
 
    The structure should look something like this:
 
@@ -215,7 +215,7 @@ The icons follow the emulator's default binding, so they won't match if you rebi
 
 All the icons are in the `icons` folder. Every icon is an 84x84 PNG. Edit what you want and rebuild the patches.
 
-To rebuild the patches, you'll need Python 3.10 or newer:
+To rebuild the patches, you'll need Python 3.11 or newer:
 
 ```bash
 pip install -r requirements.txt
@@ -249,4 +249,4 @@ If you want to learn about this kind of mod, feel free to use this project as st
 
 ## Disclaimer
 
-This is an independent project, with no ties to Nintendo, The Pokémon Company, Koei Tecmo, Sony, Microsoft, Valve or ASUS, and none of them back or sponsor it. The code in this repo has no game files, but the finished mod has a modified copy of one game texture file, and the game's art in it belongs to its rights holders. Pokémon and Pokopia are trademarks of their owners. PlayStation, DualSense, DualShock and the PS logo are trademarks of Sony Interactive Entertainment; Xbox of Microsoft; Steam Deck of Valve; and ROG Ally of ASUS. The [MIT license](LICENSE) covers the code and the icons, not those trademarks or the game's art.
+This is an independent project, with no ties to Nintendo, The Pokémon Company, Koei Tecmo, Sony, Microsoft, Valve or ASUS, and none of them back or sponsor it. The code in this repo has no game files, but the finished mod has modified copies of one game texture file and the game's `root.rdx`, and the game's art in it belongs to its rights holders. Pokémon and Pokopia are trademarks of their owners. PlayStation, DualSense, DualShock and the PS logo are trademarks of Sony Interactive Entertainment; Xbox of Microsoft; Steam Deck of Valve; and ROG Ally of ASUS. The [MIT license](LICENSE) covers the code and the icons, not those trademarks or the game's files.

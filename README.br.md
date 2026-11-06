@@ -43,7 +43,7 @@ São 27 ícones nos menus e avisos, desenhados no estilo do próprio jogo :)
    | Teclado | [Teclado](https://github.com/dumpsabfuck/pokopia-controller-icons/releases/latest/download/pokopia-keyboard-icons.zip) |
 
 2. No emulador, clique com o botão direito no jogo e depois em `Configure Game`
-3. Na aba `Add-Ons`, clique em `Import Mod from ZIP`, escolha o arquivo e clique em `OK` no nome que ele sugerir
+3. Na aba `Add-Ons`, clique em `Import Mod from ZIP`, escolha o arquivo e dê `OK` no nome que aparecer
 4. Agora é só abrir o jogo :)
 
 <details>
@@ -66,14 +66,14 @@ Na página inicial do emulador, onde tem os jogos, clique com o botão direito n
 2. Baixe [este repositório em ZIP](https://github.com/dumpsabfuck/pokopia-controller-icons/archive/refs/heads/main.zip) e extraia os arquivos
 3. Feche o jogo
 4. Ache a pasta `KIDS_PLATFORM_OUNCE` do update 2.0.1a (onde ficam o `root.rdb` e o `0x00011c54.fdata`)
-5. Na pasta que você extraiu, clique na barra de endereço, digite `cmd` e aperte Enter
+5. Na pasta onde está o `apply.py`, clique na barra de endereço, digite `cmd` e aperte Enter
 6. Rode o `apply.py` com o seu layout (`playstation`, `xbox`, `steam-deck` ou `keyboard`):
 
    ```bash
    python apply.py playstation "{GAME_FOLDER_PATH}\updates\655360\romfs\motor_asset_re\KIDS_PLATFORM_OUNCE" "{MODS_FOLDER_PATH}\Controller Icons"
    ```
 
-   `{MODS_FOLDER_PATH}` é a pasta que abre no `Open Mod Data Location`.
+   `{GAME_FOLDER_PATH}` é a pasta do jogo, e `{MODS_FOLDER_PATH}` é a pasta que abre no `Open Mod Data Location`.
 
    A estrutura deve ficar parecida com isso:
 
@@ -215,7 +215,7 @@ Os ícones seguem o mapeamento padrão do emulador, então não vão bater se vo
 
 Todos os ícones estão na pasta `icons`. Cada ícone é um PNG de 84x84. Edite o que quiser e gere os patches de novo.
 
-Pra gerar os patches de novo, você precisa do Python 3.10 ou mais novo:
+Pra gerar os patches de novo, você precisa do Python 3.11 ou mais novo:
 
 ```bash
 pip install -r requirements.txt
@@ -249,4 +249,4 @@ Se você quer aprender sobre esse tipo de mod, pode usar o projeto como material
 
 ## Aviso
 
-Esse é um projeto independente, sem nenhuma ligação com a Nintendo, a The Pokémon Company, a Koei Tecmo, a Sony, a Microsoft, a Valve ou a ASUS, e nenhuma delas apoia ou patrocina o projeto. O código deste repositório não tem nenhum arquivo do jogo, mas o mod pronto traz uma cópia modificada de um arquivo de texturas do jogo, e a arte do jogo que está nele pertence aos seus donos. Pokémon e Pokopia são marcas dos seus donos. PlayStation, DualSense, DualShock e o logo PS são marcas da Sony Interactive Entertainment; Xbox, da Microsoft; Steam Deck, da Valve; e ROG Ally, da ASUS. A [licença MIT](LICENSE) vale pro código e pros ícones, não pras marcas citadas aqui nem pra arte do jogo.
+Esse é um projeto independente, sem nenhuma ligação com a Nintendo, a The Pokémon Company, a Koei Tecmo, a Sony, a Microsoft, a Valve ou a ASUS, e nenhuma delas apoia ou patrocina o projeto. O código deste repositório não tem nenhum arquivo do jogo, mas o mod pronto traz cópias modificadas de um arquivo de texturas e do `root.rdx` do jogo, e a arte do jogo que está nele pertence aos seus donos. Pokémon e Pokopia são marcas dos seus donos. PlayStation, DualSense, DualShock e o logo PS são marcas da Sony Interactive Entertainment; Xbox, da Microsoft; Steam Deck, da Valve; e ROG Ally, da ASUS. A [licença MIT](LICENSE) vale pro código e pros ícones, não pras marcas citadas aqui nem pros arquivos do jogo.
