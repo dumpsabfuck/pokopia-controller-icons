@@ -4,7 +4,8 @@
 
 [![license](https://img.shields.io/badge/license-MIT-EE1515?labelColor=222224)](LICENSE)
 ![pokopia](https://img.shields.io/badge/Pokopia-2.0.1a-EE1515?labelColor=222224)
-![zip](https://img.shields.io/badge/ZIP-menos%20de%201%20MB-EE1515?labelColor=222224) <br>
+![zip](https://img.shields.io/badge/ZIP-menos%20de%201%20MB-EE1515?labelColor=222224)
+[![downloads](https://img.shields.io/github/downloads/dumpsabfuck/pokopia-controller-icons/total?color=EE1515&labelColor=222224)](https://github.com/dumpsabfuck/pokopia-controller-icons/releases) <br>
 ![documentation](https://img.shields.io/badge/Documentation-222224)
 [![english](https://img.shields.io/badge/-English-F0F0F0)](README.md)
 [![português](https://img.shields.io/badge/-Português%20Brasileiro-F0F0F0)](README.br.md)
